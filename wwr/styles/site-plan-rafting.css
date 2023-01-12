@@ -5,10 +5,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #68EDC6   ;
-  --secondary-color: #320E3B ;
-  --accent1-color: #75C9C8;
-  --accent2-color: #648ED6;
+  --primary-color: #FF74D4   ;
+  --secondary-color: #FFB8DE ;
+  --accent1-color: #FF36AB;
+  --accent2-color: #FFDDE1;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Rock Salt", "Sofia Sans";
