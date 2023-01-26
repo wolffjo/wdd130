@@ -1,0 +1,100 @@
+#content{
+    max-width:1600px;
+    margin:0, auto;
+}
+
+nav a{
+    text-align:center;
+    color:#642CA9;
+    text-decoration: none;
+}
+
+#hero-msg h1, #hero-msg h4{
+    text-align:center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+    background-color: #FF74D4;
+}
+
+body{
+    background-color: #642CA9;
+}
+
+header{
+    background-color: #FF36AB;
+}
+
+nav a:hover{
+    background-color: #FF74D4;
+    color:#642CA9;
+}
+
+.book, .join{
+    background-color: #FFDDE1;
+    color:#FF36AB;
+    text-decoration: none;
+}
+
+.msg{
+    background-color: #FFB8DE;
+}
+
+footer{
+    background-color: #FF36AB;
+    color:#642CA9;
+}
+
+.home-title{
+    color:#FFDDE1;
+}
+
+h4{
+    color:#FFB8DE;
+}
+
+.book:hover, .join:hover{
+    color:#642CA9;
+}
+
+.msg h2{
+    color:#642CA9;
+}
+
+.msg p{
+    color:#642CA9;
+}
+
+footer a{   
+    color:#FFB8DE;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:#642CA9;
+}
+
+.icon{
+    width:80px;
+}
+
+#hero-msg{
+    width:100%;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}

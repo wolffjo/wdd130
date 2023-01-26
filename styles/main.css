@@ -1,3 +1,8 @@
+/*
+* {
+    border: 1px solid red
+}
+*/
 h1{
 
     color:steelblue;
@@ -13,4 +18,32 @@ h1{
 
 body{
     background-color: white;
+}
+
+img{
+    width:15%;
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    text-align:center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#image-container{
+    text-align:center;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:nth-of-type(even){
+    color:red;
+}
+
+nav a:hover{
+    color:pink;
 }

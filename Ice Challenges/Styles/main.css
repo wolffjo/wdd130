@@ -1,0 +1,23 @@
+*{
+    background-color: pink;
+    
+}
+
+h1{
+    color:white
+    
+}
+
+h1:hover{
+    color:black;
+}
+
+img{
+    width:15%
+}
+
+p {
+    text-align:center;
+    width: 400px;
+    margin: 0 auto;
+}
