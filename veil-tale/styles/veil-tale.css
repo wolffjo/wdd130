@@ -1,6 +1,21 @@
+header{
+    background-color: black;
+}
+
 #logo{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+}
+
+#logoAndtitle1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#title1{
+    width: 850px;
+    height: 150px;
 }
 
 .card-img{
@@ -11,4 +26,78 @@
 .images{
     width: 100px;
     height: 150px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: white;
+    font-size: 1.75em;
+    text-decoration: none;
+}
+
+h2 a{
+    color: white;
+    text-decoration: none;
+}
+
+h2 a:hover{
+    color: yellow;
+}
+
+nav a:hover{
+    background-color: lightgray;
+    color: yellow;
+}
+
+#content{
+    max-width:1600px;
+    margin:0 auto;
+}
+
+#text{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 200px;
+}
+
+#paragraph{
+    text-align: center;
+}
+
+#textTitle{
+    color: red;
+    margin-bottom: 50px;
+}
+
+.home-grid{
+    display:grid;
+    grid-template-columns: repeat(11, 1fr);
+    margin-top: 500px;
+}
+
+.john-card{
+    grid-column: 3/4;
+}
+
+.frisk-card{
+    grid-column: 6/7;
+}
+
+.sans-card{
+    grid-column: 9/11;
+}
+
+#bottomLogo{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: black;
 }
