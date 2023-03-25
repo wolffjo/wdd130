@@ -112,6 +112,47 @@ footer{
     background-color: #f1f1f1;
   }
   
+.bio-grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.bio-text{
+    text-align: center;
+}
+
+#frisk-img{
+    grid-column: 2/3;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#john-img{
+    grid-column: 1/2;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#sans-img{
+    grid-column: 2/3;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bio-images {
+    width: 100px;
+    height: 150px;
+  }
+
+
+
+
+
+
+
+
   /* The progress container (grey background) */
   .progress-container {
     width: 100%;
