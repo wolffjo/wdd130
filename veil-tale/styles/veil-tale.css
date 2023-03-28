@@ -112,15 +112,31 @@ footer{
     background-color: #f1f1f1;
   }
   
-.bio-grid{
+.bio-grid, .story-grid{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 200px;
     margin-bottom: 200px;
 }
 
-.bio-text{
+.bio-text, .story1{
     text-align: center;
+}
+
+#red-cloud{
+    grid-column: 2/3;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 550px;
+}
+
+#prisoner{
+    grid-column: 2/3;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 550px;
 }
 
 #frisk-img{
