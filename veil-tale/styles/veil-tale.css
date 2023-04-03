@@ -189,6 +189,6 @@ footer{
   /* The progress bar (scroll indicator) */
   .progress-bar {
     height: 8px;
-    background: lightskyblue;
+    background: yellow;/*lightskyblue*/
     width: 0%;
   }
