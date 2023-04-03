@@ -2,6 +2,14 @@ header{
     background-color: black;
 }
 
+body{
+    background-color: rgb(9, 9, 9);
+}
+
+#text{
+    color: white;
+}
+
 #logo{
     width: 250px;
     height: 250px;
@@ -49,7 +57,7 @@ h2 a:hover{
 }
 
 nav a:hover{
-    background-color: lightgray;
+    background-color: rgb(62, 62, 62);
     color: yellow;
 }
 
@@ -101,6 +109,7 @@ nav a:hover{
 footer{
     margin-top: 100px;
     background-color: black;
+    color: white;
 }
 
 /* Style the header: fixed position (always stay at the top) */
@@ -121,6 +130,7 @@ footer{
 
 .bio-text, .story1{
     text-align: center;
+    color: white;
 }
 
 #red-cloud{
